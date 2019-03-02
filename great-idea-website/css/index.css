@@ -71,9 +71,13 @@ h1, h2, h3, h4, h5 {
 	color: gray;
 	display: inline-block;
 	text-decoration: none;
-	padding: 10px 55px 0px 55px;
+	padding: 10px 50px 0px 50px;
 	margin: 10px;
 	margin-left: auto;
+}
+
+.nav1 {
+	margin-left: 90px;
 }
 
 .nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav5:hover, .nav6:hover {
@@ -90,7 +94,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .title{
-	padding: 20px 60px;
+	padding: 50px 60px;
 	margin: 20px 60px;
 }
 
@@ -125,15 +129,20 @@ h2 {
 	font-size: 20px;
 }
 
-.features, .about {
+.aboveimage {
 	box-sizing: border-box;
 	display: inline-block;
-	padding: 10px;
-	margin: 10px;
+	padding: 10px 20px;
+	margin: 10px 115px;
+}
+
+.features, .about {
+	display: inline-block;
+	padding:
 }
 
 .middle-img {
-	margin: 0px 250px;	
+	margin: 0px 250px;
 }
 
 .services, .product, .vision {
@@ -141,4 +150,9 @@ h2 {
 	display: inline-block;
 	padding: 10px;
 	margin: 10px;
+}
+
+footer {
+	text-align: center;
+	margin: 80px;
 }
