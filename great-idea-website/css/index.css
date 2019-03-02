@@ -123,17 +123,22 @@ hr {
 
 h2 {
 	font-size: 20px;
-
 }
 
-p {
-	display: block;
-	margin: 10px;
+.features, .about {
+	box-sizing: border-box;
+	display: inline-block;
 	padding: 10px;
-	width: auto;
-	height: auto;
+	margin: 10px;
 }
 
-div {
-	text-decoration: underline;
+.middle-img {
+	margin: 0px 250px;	
+}
+
+.services, .product, .vision {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
 }
